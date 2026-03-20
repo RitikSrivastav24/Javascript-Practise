@@ -86,4 +86,4 @@ function twoSum(myArr, target) {
     }
     return [];
 }
-console.log(twoSum([2,7,11,5,15], 16)); // [2,7]
+console.log(twoSum([2,7,11, 5,15], 16)); // [2,7]
