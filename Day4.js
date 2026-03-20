@@ -22,6 +22,6 @@ function firstNonRepeating(str){
     let count={};
     for(let i= 0;i<str.length;i++){
         let char= str[i];
-
+        
     }
 }
