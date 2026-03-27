@@ -18,10 +18,10 @@ function findMostFrequent(arr) {
 //console.log(findMostFrequent([1, 2, 2, 3, 3, 4, 5, 5, 6, 6, 4, 1, 2, 3, 5, 8, 3, 3, 3, 3]))
 
 // Find First Non-Repeating Character 
-function firstNonRepeating(str){
-    let count={};
-    for(let i= 0;i<str.length;i++){
-        let char= str[i];
-        
+function firstNonRepeating(str) {
+    let count = {};
+    for (let i = 0; i < str.length; i++) {
+        let char = str[i];
+
     }
 }

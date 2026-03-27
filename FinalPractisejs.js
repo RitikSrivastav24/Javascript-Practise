@@ -66,8 +66,6 @@ function reverseWords(){
 //         let uppercase= str.toCapitalize();
 //         return uppercase;
 //     }
-
-    
 // }
 
 function uppercaseWords(str){
