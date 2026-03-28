@@ -71,4 +71,38 @@ function reverseWords(){
 function uppercaseWords(str){
     return str.split(" ").map(words => words.charAt(0).toUpperCase() + words.slice(1)).join(" ")
 }
-console.log(uppercaseWords("Ritik is coding "))
+//console.log(uppercaseWords("Ritik is coding "))
+
+
+// Date 28/03/2026
+
+function removeDuplicates(arr){
+    return[...new Set(arr)]
+}
+//console.log(removeDuplicates([1,2,3,2,23,2]))
+
+// using foreach loop + includes
+function removeDup(arr){
+    let result=[];
+    arr.forEach(item => {
+        if(!result.includes(item)){
+            result.push(item)
+        }
+    });
+    return result;
+}
+// console.log(removeDup([1,2,3,2,23,2]))
+
+// using for loop
+function removeDuplicate(arr){
+    let seen ={}
+    let result =[]
+    for(let i = 0; i<arr.length;i++){
+        if(!seen[arr[i]]){
+            seen[arr[i]]=true;
+            result.push(arr[i])
+        }
+    }
+    return result;
+}
+console.log(removeDuplicate([1,2,3,2,23,2]));
