@@ -249,34 +249,34 @@ console.log(countVowels("javascript"));
 //reverse the string 
 function reverseString(str) {
     let reverse = "";
-    for(let i=str.length-1;i>=0;i--){
-        reverse+= str[i]
-    
+    for (let i = str.length - 1; i >= 0; i--) {
+        reverse += str[i]
+
     }
     return reverse;
 }
 //console.log(reverseString("Ritik"))
 
 //palindrome
-function isPalindrome(str){
-    str=str.toLowerCase();
-    let reverse="";
-   for(let i=str.length-1;i>=0;i--){
-    reverse+= str[i];
-   }
-   if(str===reverse){
-    return true;
-   }
-   else{
-    return false
-   }
+function isPalindrome(str) {
+    str = str.toLowerCase();
+    let reverse = "";
+    for (let i = str.length - 1; i >= 0; i--) {
+        reverse += str[i];
+    }
+    if (str === reverse) {
+        return true;
+    }
+    else {
+        return false
+    }
 
 }
 //console.log(isPalindrome("Ritik"))
 
-function isPalindrome1(str){
-    let reversed= str.split("").reverse().join("");
-    return str===reversed;
+function isPalindrome1(str) {
+    let reversed = str.split("").reverse().join("");
+    return str === reversed;
 }
 //console.log(isPalindrome1("level"));
 

@@ -2,7 +2,6 @@ function isAnagram(str1, str2) {
     if (str1.length !== str2.length) {
         return false;
     }
-
 }
 
 function countChars(str) {
@@ -79,11 +78,11 @@ function twoSum(myArr, target) {
     for (let i = 0; i < myArr.length; i++) {
         let num = myArr[i]
         let diff = target - num
-        if(map[diff]){
-            return [diff , num]
+        if (map[diff]) {
+            return [diff, num]
         }
-        map[num]= true;
+        map[num] = true;
     }
     return [];
 }
-console.log(twoSum([2,7,11,5,15], 16));  // [2,7]
+console.log(twoSum([2, 7, 11, 5, 15], 16));  // [2,7]

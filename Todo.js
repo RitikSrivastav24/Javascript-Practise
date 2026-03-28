@@ -6,24 +6,24 @@ let todos = [
 
 //console.log(todos)
 
-function addTodo(text){
-    let newTodo={
-        text:text,
-        completed:false
+function addTodo(text) {
+    let newTodo = {
+        text: text,
+        completed: false
     };
     todos.push(newTodo)
 }
 addTodo("Next Part is React")
 //console.log(todos)
 
-function deleteTodo(index){
+function deleteTodo(index) {
     todos.splice(index, 1)
 }
 deleteTodo(1)
 //console.log(todos)
 
-function toggleTodo(index){
-    todos[index].completed=!todos[index].completed;
+function toggleTodo(index) {
+    todos[index].completed = !todos[index].completed;
 
 }
 toggleTodo(0)
