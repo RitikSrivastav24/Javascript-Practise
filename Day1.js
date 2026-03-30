@@ -280,5 +280,10 @@ function isPalindrome1(str) {
 }
 //console.log(isPalindrome1("level"));
 
-
-
+let arr=["a","b","c"]
+let result = arr.join()
+let reverse= arr.reverse()
+console.log(result)
+console.log(arr)
+console.log(reverse)
+console.log(typeof(result))
