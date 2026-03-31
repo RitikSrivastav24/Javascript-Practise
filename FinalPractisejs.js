@@ -105,4 +105,21 @@ function removeDuplicate(arr) {
     }
     return result;
 }
-console.log(removeDuplicate([1, 2, 3, 2, 23, 2]));
+//console.log(removeDuplicate([1, 2, 3, 2, 23, 2]));
+
+
+// closure example 
+function randomfun(){
+    const obj1={
+        name:"Ritik",
+        age : 24
+    }
+
+    return function(){
+        console.log(obj1.name + " is awesome");
+    }
+}
+var initClosure= randomfun();
+initClosure();
+
+
