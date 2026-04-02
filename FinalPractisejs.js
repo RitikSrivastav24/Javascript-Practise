@@ -29,8 +29,6 @@ function countOdd(arr) {
 }
 //console.log(countOdd([1,2,3,4,5,6]))
 
-
-
 // find max number 
 function maxNumber(arr) {
     return arr.reduce((a, b) => Math.max(a, b), -Infinity)
@@ -114,7 +112,6 @@ function randomfun(){
         name:"Ritik",
         age : 24
     }
-
     return function(){
         console.log(obj1.name + " is awesome");
     }
