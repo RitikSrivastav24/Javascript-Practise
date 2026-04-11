@@ -73,8 +73,7 @@ const promiseFive= new Promise(function(resolve,reject){
         
     } catch (error) {
      console.log(error)   
-    }
-    
+    } 
 }
 consumedPromiseFive()
 

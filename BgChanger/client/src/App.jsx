@@ -7,16 +7,13 @@ function App() {
     return localStorage.getItem("bgColor") || defaultColor;
   });
   const colors = ["red", "green", "olive", "pink", "yellow"]
-
   useEffect(() => {
     localStorage.setItem("bgColor", color)
   }, [color])
-
   const handleReset = () => {
     localStorage.removeItem("bgColor");
     setColor(defaultColor)
   }
-
   return (
     <>
       <div className="w-full flex flex-wrap duration-200 h-screen"
@@ -33,7 +30,6 @@ function App() {
                 {c}
               </button>
             ))}
-
             <button className="rounded px-3 py-3 text-white shadow-3xl bg-black"
               onClick={handleReset}>Reset</button>
           </div>
