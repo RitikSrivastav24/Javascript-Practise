@@ -13,8 +13,6 @@ function arrSum(arr) {
 // })
 // console.log(sum)
 
-
-
 function oddNum(arr) {
     let count = 0;
     for (let i = 0; i < arr.length; i++) {
