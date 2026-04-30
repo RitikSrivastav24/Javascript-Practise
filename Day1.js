@@ -4,7 +4,7 @@ function reverseString(str) {
         reversed += str[i]
     }
     return reversed;
-
+ 
 }
 
 function greet(name) {
