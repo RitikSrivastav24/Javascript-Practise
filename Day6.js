@@ -9,4 +9,7 @@ function reverseStr(str){
 }
 
   
-console.log(reverseStr("Ritik"))
+//console.log(reverseStr("Ritik"))
+
+// Q.2 - Check if a string is palindrome.
+// Solution : Palindrome is a number if we reverse the number then the output is same. example 121 if we reverse this the output will be same -- 121 
