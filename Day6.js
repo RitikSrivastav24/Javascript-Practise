@@ -60,7 +60,7 @@ function factorial(num){
     return result
 }
 
-// console.log(factorial(6))
+ console.log(factorial(6))
 
 
 
