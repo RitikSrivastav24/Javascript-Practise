@@ -1,5 +1,4 @@
 import { useState } from 'react'
-
 import { Login } from './pages/Login'
 import { Card } from './pages/Card'
 
@@ -9,7 +8,7 @@ function App() {
   return (
     <>
     <h1 className='text-center'>Learning Tailwind</h1>
-    <Card/>
+    <Login/>
     </>
   )
 }
