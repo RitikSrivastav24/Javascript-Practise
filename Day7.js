@@ -64,9 +64,33 @@ function factorial(n){
 
 // 5. Find the largest number in an array.
 // Ans
-
+function isLargest(arr){
+    let largest= arr[0];
+    for(let i = 1; i<arr.length; i++){
+        if(arr[i] > largest){
+            largest=arr[i]
+        }
+    }
+    return largest
+}
+console.log(isLargest([12, 45, 7, 89, 23]))
 // 6. Find the smallest number in an array.
+//Ans
+
+function ismallest(arr){
+    let smallest = arr[0];
+    for(let i= 1 ; i <arr.length ; i++){
+        if(arr[i] < smallest)
+        {
+            smallest= arr[i]
+        }
+    }
+     return smallest
+}
+console.log(ismallest([12, 45, 7, 89, 23, ,-4]))
+ 
 // 7. Remove duplicates from an array.
+
 // 8. Sort an array without using sort().
 // 9. Check if two strings are anagrams.
 // 10. Count vowels and consonants in a string.
